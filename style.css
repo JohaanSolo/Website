@@ -116,5 +116,6 @@ a:hover {
 }
 
 a{
+  transition: color 0.5s;
   color: #aaaaaa;
 }
