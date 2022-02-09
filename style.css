@@ -112,5 +112,9 @@ ion-icon {
 }
 
 a:hover {
-  color: #FFCC00
+  color: lightgray;
+}
+
+a{
+  color: #aaaaaa;
 }
