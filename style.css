@@ -51,7 +51,7 @@ h1{
 }
 
 .social1 :hover{
-  color: lightgray;
+  color: white;
 }
 
 .social2{
@@ -62,7 +62,7 @@ h1{
 }
 
 .social2 :hover{
-  color: lightgray;
+  color: white;
 }
 
 ion-icon {
@@ -112,7 +112,7 @@ ion-icon {
 }
 
 a:hover {
-  color: lightgray;
+  color: white;
 }
 
 a{
