@@ -114,7 +114,10 @@ ion-icon {
 
 a:hover {
   color: white;
-  transform: scale(1.5)
+}
+
+a, pages1, pages2, link, social1, social2:hover{
+  transform: scale(2);
 }
 
 a{
