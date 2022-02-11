@@ -1,5 +1,6 @@
 html{
-  background-color: #181818;
+  /*background-color: #181818;*/
+  background-color:#ffffff;
   scroll-behavior: smooth;
 }
 
@@ -34,11 +35,7 @@ html{
 .gameName, .aboutGame, .games{
   color: white;
 }
-/*
-.gameDiv{
 
-}
-*/
 h1{
   color:brown;
   text-align: center;
@@ -118,6 +115,11 @@ a:hover {
 
 a, pages1, pages2, link, social1, social2:hover{
   transform: scale(2);
+}
+
+container2: hover{
+  transform:scale(3);
+  align:center;
 }
 
 a{
