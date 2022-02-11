@@ -1,6 +1,5 @@
 html{
-  /*background-color: #181818;*/
-  background-color:#ffffff;
+  background-color: #181818;
   scroll-behavior: smooth;
 }
 
@@ -111,15 +110,6 @@ ion-icon {
 
 a:hover {
   color: white;
-}
-
-a, pages1, pages2, link, social1, social2:hover{
-  transform: scale(2);
-}
-
-container2: hover{
-  transform:scale(3);
-  align:center;
 }
 
 a{
