@@ -1,118 +1,109 @@
+/*
+Note:
+My WebSite's Home Page, About Me Page And Project Pages Uses One CSS File,
+So Any Changes Made Will Effect All Mentioned Pages
+*/
+
+
+/*Effects The Whole Page*/
 html{
   background-color: #181818;
   scroll-behavior: smooth;
 }
 
+
+/*All Pages*/
+
+/*Header*/
 .header{
-  background-color:#181818;
+  /*No Styles Yet*/
 }
 
-.pages1{
-  font-size:x-large;
-  margin: 0 0px;
-  color: lightgray;
-}
 
-.pages1:hover{
-  opacity: 0.33;
-}
-
-.pages2{
-  font-size:x-large;
-  margin: 0 10px;
-  color: lightgray;
-}
-
-.pages2:hover{
-  opacity: 0.33;
-}
-
-.blurb, .blurbH{
-  color: white;
-}
-
-.gameName, .aboutGame, .games{
-  color: white;
-}
-
+/*Styles For The Title (My Name / All h1 text)*/
 h1{
+  font-size: 10rem; 
   color:brown;
   text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
-.social1{
-  color: #aaaaaa;
+
+/*Styles For The Links To The Pages*/
+.pages{
+  font-size:x-large;
+  margin: 0 5px;
+  color: lightgray;
+}
+
+.pages:hover{
+  opacity: 0.33;
+}
+
+
+/*links*/
+a{
   transition: color 0.5s;
-  text-decoration: none;
-  margin: 0 0px;
-}
-
-.social1 :hover{
-  color: white;
-}
-
-.social2{
   color: #aaaaaa;
-  transition: color 0.5s;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.social2 :hover{
-  color: white;
-}
-
-ion-icon {
-  font-size: 32px;
-}
-
-.floatRight{
-  float: right;
-  margin-left: 20px;
-}
-
-.blurbH{
-  width: 75%;
-  margin: 0;
-}
-
-.iconDetails {
-  margin-left:2%;
-  float:right;
-} 
-
-.container2{
-  width:100%;
-  height:auto;
-  padding-bottom:0rem;
-}
-
-#footerH {
-  position: relative;
-  padding-top: 32.5rem;
-}
-#footerA {
-  position: relative;
-  padding-top: 32.5rem;
-}
-
-#footerG {
-  position: relative;
-  padding-top: 32.5rem;
-}
-
-#footer-content {
-  position: relative;
-  bottom: 0;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
 }
 
 a:hover {
   color: white;
 }
 
-a{
-  transition: color 0.5s;
+
+/*Styles For Social Links*/
+.social{
   color: #aaaaaa;
+  transition: color 0.5s;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social :hover{
+  color: white;
+}
+
+/*Setings For The ion icon*/
+ion-icon {
+  font-size: 32px;
+}
+
+.footer-content {
+  /*Every thing Bellow The Footer Line*/
+}
+
+
+
+/*Styles For Individual Pages*/
+/*Home-Page*/
+.Home-PFP {
+  margin-left:2%;
+  float:right;
+}
+
+.Home-Blurb {
+  color: white;
+  width: 75%;
+  margin: 0;
+}
+
+
+
+/*AboutMe-Page*/
+.AboutMe-Blurb {
+  color: white;
+}
+
+
+
+/*Projects-Page*/
+.Projects-Blurb {
+  color: white;
+}
+
+/*Some Styles For Projects Page Divs .gameName, .aboutGame and .games*/
+.gameName, .aboutGame, .games{
+  color: white;
 }
